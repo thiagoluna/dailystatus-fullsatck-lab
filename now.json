@@ -1,0 +1,24 @@
+{
+    "env": {
+        "AUTH0_CLIENT_ID": "@auth0-client-id",
+        "AUTH0_CLIENT_SCOPE": "@auth0-client-scope",
+        "AUTH0_SCOPE": "openid profile",
+        "AUTH0_DOMAIN": "progti.auth0.com",
+        "AUTH0_REDIRECT_URI": "https://fullstacklab.thiagoluna.now.sh/api/callback",
+        "AUTH0_LOGOUT_REDIRECT_URI": "https://fullstacklab.thiagoluna.now.sh/",
+        "AUTH0_SESSION_SECRET": "asdasdasdasdasdasdasdasdasdasdas",
+        "AUTH0_SESSION_COOKIE_TIME": "3600"
+    },
+    "build": {
+        "env": {
+            "AUTH0_CLIENT_ID": "@auth0-client-id",
+            "AUTH0_CLIENT_SCOPE": "@auth0-client-scope",
+            "AUTH0_SCOPE": "openid profile",
+            "AUTH0_DOMAIN": "progti.auth0.com",
+            "AUTH0_REDIRECT_URI": "https://fullstacklab.thiagoluna.now.sh/api/callback",
+            "AUTH0_LOGOUT_REDIRECT_URI": "https://fullstacklab.thiagoluna.now.sh/",
+            "AUTH0_SESSION_SECRET": "asdasdasdasdasdasdasdasdasdasdas",
+            "AUTH0_SESSION_COOKIE_TIME": "3600"
+        }
+    }
+}
